@@ -1,0 +1,53 @@
+body{
+    background-color: brown;
+}
+#header-nav{
+    background-color: rgba(145, 145, 145, 0.808);
+    border-radius: 0;;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+#nav-list a{
+    text-align: center;
+    color: black;
+    
+}
+#nav-list a:hover{
+    background: azure;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.chicken{
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    
+}
+.chicken span{
+    position: absolute
+    text;
+}
+.contenido{
+    background-color: rgba(145, 145, 145, 0.808);
+    border: 10px solid brown;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+}
+.cuadro{
+    border: 1px solid black;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .visible-sm {
+        display: none!important;
+    }
+ 
+}
+
+
